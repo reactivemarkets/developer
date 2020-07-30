@@ -20,10 +20,8 @@ milliseconds as the raw order book.
 To access the Reactive WebSocket API you will need a Platform API key. A new API key can be
 generated in the platform in three steps:
 
-1. login to the [Reactive Platform](https://platform.reactivemarkets.com) or create an account;
-2. navigate to the [API Keys section](https://platform.reactivemarkets.com/keys) from the top left
-   menu bar;
-3. click the "Create New API Key" button and make a note of your new API key.
+1. login to the [Reactive Platform API Keys](https://platform.reactivemarkets.com/keys) page.
+2. click the "Create New API Key" button and make a note of your new API key.
 
 ::: warning
 Your new API key will only be displayed once when generated. If you lose your API key, then you will
