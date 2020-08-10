@@ -2,8 +2,9 @@
 
 ## Getting Started
 
+To start the docs in a browser and make changes run:
+
 ```bash
-$ cd docs/
-$ npm install vuepress
-$ npx vuepress dev
+npm ci
+npm start
 ```
