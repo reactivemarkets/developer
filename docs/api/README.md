@@ -1,9 +1,9 @@
-# Platform API
+# Switchboard API
 
-Welcome to the home of the Reactive Platform API! Here you will find information on everything you
+Welcome to the home of the Switchboard API! Here you will find information on everything you
 need to get up and running with our real-time API into the cryptocurrency markets.
 
-The Reactive platform aims to provide the fastest, most efficient and most stable data
+Switchboard aims to provide the fastest, most efficient and most stable data
 infrastructure available. We offer several APIs options to cater for different styles of use case
 but all share the same highly optimised technology stack.
 
@@ -17,10 +17,10 @@ milliseconds as the raw order book.
 
 ## API Keys
 
-To access the Reactive WebSocket API you will need a Platform API key. A new API key can be
-generated in the platform in three steps:
+To access the WebSocket API you will need a Switchboard API key. A new API key can be
+generated in Switchboard in three steps:
 
-1. login to the [Reactive Platform API Keys](https://platform.reactivemarkets.com/keys) page.
+1. login to the [Switchboard API Keys](https://switchboard.reactivemarkets.com/keys) page.
 2. click the "Create New API Key" button and make a note of your new API key.
 
 ::: warning
@@ -39,7 +39,7 @@ Currently we support the following APIs:
 ### WebSocket API
 
 Our WebSocket API is optimised for fast, efficient streaming market data. It uses a binary data
-format to reduce data volumes and improve processing efficiency within our platform and in your
+format to reduce data volumes and improve processing efficiency within our network and in your
 client. By optimising the format, we are able to pack order book data into frequent snapshots
 allowing you to consume data that requires no order book maintenance in your client code - as soon
 as you receive it, it’s ready to use. The feed request API offers various parameters to control

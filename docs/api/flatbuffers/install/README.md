@@ -1,17 +1,17 @@
 # FlatBuffers Install
 
-The Reactive Platform API uses [Google FlatBuffers](https://google.github.io/flatbuffers/) to
+Switchboard uses [Google FlatBuffers](https://google.github.io/flatbuffers/) to
 binary-encode application messages transmitted over WebSockets. FlatBuffers provides an efficient
 serialisation/deserialisaton mechanism in terms of both processing and space requirements.
 
 The FlatBuffers schema files are located in the
-[flatbuffers](https://github.com/reactivemarkets/platform-api/tree/master/flatbuffers) directory.
+[flatbuffers](https://github.com/reactivemarkets/switchboard-api/tree/master/flatbuffers) directory.
 
 ## Code Generation
 
 Generated code for the following languages is available on the
-[latest](https://github.com/reactivemarkets/platform-api/tree/latest) branch and
-[releases](https://github.com/reactivemarkets/platform-api/releases):
+[latest](https://github.com/reactivemarkets/switchboard-api/tree/latest) branch and
+[releases](https://github.com/reactivemarkets/switchboard-api/releases):
 
 - C++
 - C#
@@ -30,7 +30,7 @@ $ flatc --rust *.fbs
 
 Build artefacts are available for several languages:
 
-- Go: `go get github.com/reactivemarkets/platform-api@latest`
+- Go: `go get github.com/reactivemarkets/switchboard-api@latest`
 - Java: [Maven Package](https://search.maven.org/artifact/com.reactivemarkets/papi)
 - Python: [PyPi Package](https://pypi.org/project/reactive-papi)
-- JavaScript: [NPM Package](https://www.npmjs.com/package/@reactivemarkets/platform-api)
+- JavaScript: [NPM Package](https://www.npmjs.com/package/@reactivemarkets/switchboard-api)

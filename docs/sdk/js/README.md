@@ -5,12 +5,12 @@ sidebar: auto
 
 ## Introduction
 
-The JavaScript SDK makes it simple to connect the Platform using [Node.js](https://nodejs.org/) or a browser. It handles the connection logic, deserialization and convertions into JavaScript.
+The JavaScript SDK makes it simple to connect to Switchboard using [Node.js](https://nodejs.org/) or a browser. It handles the connection logic, deserialization and convertions into JavaScript.
 
 ## Installation
 
 ```bash
-npm i @reactivemarkets/platform-sdk
+npm i @reactivemarkets/switchboard-sdk
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm i @reactivemarkets/platform-sdk
 The `FeedClient` class is used to create a WebSocket connection to the feed api. You will need to specify an api key for the connection.
 
 ```js
-import { FeedClient, toJS } from "@reactivemarkets/platform-sdk";
+import { FeedClient, toJS } from "@reactivemarkets/switchboard-sdk";
 
 const feedClient = new FeedClient({
     apiKey: MY_API_KEY,
