@@ -98,12 +98,12 @@ values are: 1, 5, 10 and 20. This feature is only available on supported feeds.
 
 The `frequency` is the feed update frequency expressed in milliseconds. The requested frequency will
 be rounded up to the nearest multiple of the conflation period. If the frequency is zero or
-unspecified, then it defaults to one second. For example: if the platform conflation period is set
+unspecified, then it defaults to one second. For example: if the network conflation period is set
 to 100 milliseconds, and a user requests 150 milliseconds, then their actual update frequency will
 be 200 milliseconds. The frequency need not be specified when unsubscribing. This feature is only
 available on supported feeds.
 
-N.B. The conflation period for our beta platform is currently set to 200 milliseconds.
+N.B. The conflation period for our beta network is currently set to 200 milliseconds.
 
 ### FeedRequestAccept
 

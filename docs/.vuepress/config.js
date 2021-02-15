@@ -1,7 +1,7 @@
 module.exports = {
     base: "/",
-    title: "Reactive Markets Developer",
-    description: "Develop for the Reactive Markets Platform",
+    title: "Developer | Reactive Markets",
+    description: "Develop for Switchboard",
     head: [
         ["link", { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" }],
         ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -48,10 +48,6 @@ module.exports = {
                 items: [
                     { text: "Limit Order Books", link: "/articles/limitorderbooks/" },
                 ]
-            },
-            {
-                text: "Pricing",
-                link: "/pricing/",
             },
         ],
         repo: "reactivemarkets/developer",

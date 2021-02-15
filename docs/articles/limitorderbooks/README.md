@@ -160,5 +160,5 @@ will take a closer at how market-data is derived from the LOB and the options fo
 data to users over an Application Programming Interface (API).
 
 Check out the [Reactive Markets website](https://www.reactivemarkets.com) if you would like to know
-more about us and how our [Platform](https://platform.reactivemarkets.com/) is powering a new
+more about us and how our [Switchboard](https://switchboard.reactivemarkets.com/) is powering a new
 generation of professional traders. See you next time!
